@@ -12,9 +12,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'preservim/nerdcommenter'                    "Comments
   Plug 'airblade/vim-gitgutter'											"Git Gutter (Shows git diff in side column)
   Plug 'honza/vim-snippets'                         "Vim Snippets
+  Plug 'vim-airline/vim-airline-themes'
   "Plug 'sheerun/vim-polyglot'                       "Language packs
 call plug#end()
 
+let g:airline_theme='dark'
 
 colorscheme gruvbox
 highlight Normal guibg=none ctermbg=none
