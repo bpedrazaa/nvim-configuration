@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
   "Plug 'sheerun/vim-polyglot'                       "Language packs
 call plug#end()
 
-let g:airline_theme='dark'
+let g:airline_theme='bubblegum'
 
 colorscheme gruvbox
 highlight Normal guibg=none ctermbg=none
