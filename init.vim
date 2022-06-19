@@ -75,7 +75,7 @@ let mapleader = " "
 
 " Show hidden Files in NerdTree
 let NERDTreeShowHidden=1
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=30
 
 " Toggle NERDTree
 nmap <C-n> :NERDTreeToggle<CR>
